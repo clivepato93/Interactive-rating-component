@@ -1,4 +1,4 @@
-
+'use strict'
 // const listItems = document.querySelectorAll('li');
 // console.log(listItems)
 const main = document.querySelector('main');
