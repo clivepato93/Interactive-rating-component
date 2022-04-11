@@ -134,11 +134,6 @@ color: var(--white);
     cursor: pointer;
 }
 
-input[type="radio"] {
-	position: absolute;
-	opacity: 0;
-}
-
 .btn-submit{
     width: 100%;
     height: 5rem;
@@ -158,10 +153,10 @@ input[type="radio"] {
     color: var(--white);
 }
 
-.btn-submit:hover{
+/* .btn-submit:hover{
     background-color:var(--white) ;
     color: var(--orange);
-}
+} */
 
 /* when the user has selected a radio button and clicked submit */
 
