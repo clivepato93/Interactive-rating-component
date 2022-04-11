@@ -147,6 +147,7 @@ input[type="radio"] {
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3rem;
+    border: 2px solid var(--orange);
 
 }
 
