@@ -37,13 +37,37 @@ Here is my solution
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### What I learned
+
+I learned how to overcome event listeners not working on Safari ios as the functionality was working everywhere else.
+
+I adjusted my div's from 
+
+```html
+    <div class="btn">1</div> 
+```
+to the following
+
+```html
+    <button class="btn" value="1">1</button> 
+```
+
+I also added a new property that I hadn't used previously after doing some googling 
+```css
+.btn{
+    cursor:pointer;
+}
+
+}
+```
+
+### Useful resources
+
+- [Resource 1](https://stackoverflow.com/questions/57334793/touch-click-and-input-event-listeners-not-firing-ios) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Where to find everything
 

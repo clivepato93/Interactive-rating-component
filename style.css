@@ -125,14 +125,14 @@ color: var(--white);
     justify-content: center ;
     align-items: center;
     font-size: 1.7rem;
-    cursor:pointer;
+    cursor:hand;
     border: 2px solid var(--dark-blue);
 }
 
 .btn:hover{
     background-color: var(--orange);
     color: var(--white);
-    cursor: pointer;
+    cursor: hand;
 }
 
 .btn-submit{
@@ -145,7 +145,8 @@ color: var(--white);
     font-weight: 700;
     border-radius: 3rem;
     border: 2px solid var(--orange);
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: hand;
 
 }
 
