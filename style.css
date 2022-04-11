@@ -132,6 +132,7 @@ color: var(--white);
 .btn:hover{
     background-color: var(--orange);
     color: var(--white);
+    cursor: pointer;
 }
 
 input[type="radio"] {
@@ -149,6 +150,7 @@ input[type="radio"] {
     font-weight: 700;
     border-radius: 3rem;
     border: 2px solid var(--orange);
+    cursor: pointer;
 
 }
 
