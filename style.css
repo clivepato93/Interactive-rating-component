@@ -126,6 +126,7 @@ color: var(--white);
     align-items: center;
     font-size: 1.7rem;
     cursor:pointer;
+    border: 2px solid var(--dark-blue);
 }
 
 .btn:hover{
