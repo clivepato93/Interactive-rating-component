@@ -5,6 +5,8 @@ const main = document.querySelector('main');
 const submit = document.querySelector('.btn-submit');
 const content = document.querySelector('.content');
 // const feedback = document.querySelector('.feedback')
+const scores = document.querySelector('.scores');
+console.dir(scores)
 const buttons =  Array.from(document.querySelectorAll('.btn'))
 let score = 0;
 // console.log(listItems)
