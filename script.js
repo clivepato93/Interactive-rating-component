@@ -5,7 +5,7 @@ const main = document.querySelector('main');
 const submit = document.querySelector('.btn-submit');
 const content = document.querySelector('.content');
 // const feedback = document.querySelector('.feedback')
-const listItems =  Array.from(document.querySelectorAll('label'))
+const buttons =  Array.from(document.querySelectorAll('.btn'))
 let score = 0;
 // console.log(listItems)
 
@@ -15,12 +15,12 @@ let score = 0;
 // console.log(submit)
 
 window.addEventListener('click', function (e) {
-    if(!listItems.includes(e.target)) return;
-    listItems.forEach(label=> label.classList.remove('selected'))
+    if(!buttons.includes(e.target)) return;
+    buttons.forEach(label=> label.classList.remove('selected'))
     const targetEl = e.target;
     targetEl.classList.toggle('selected')
-    score= +targetEl.getAttribute('for');
-    console.log(e.target,+targetEl.getAttribute('for'),listItems.includes(e.target))
+    score= +targetEl.textContent;
+    console.log(e.target,+targetEl.textContent,buttons.includes(e.target))
 })
 
 submit.addEventListener('click',function (e) {

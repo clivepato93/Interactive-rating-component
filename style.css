@@ -31,12 +31,15 @@ body{
 main{
     padding: 3rem;
     margin: 10rem auto;
-    background-color: var(--dark-blue);
+    background: radial-gradient(circle at top, #313949 -50%, #171e28 50% 100%);
     /* font-size: 2.5rem; */
+    background-size: 150% 200%;
+    background-position: center;
     font-weight: 400;
-    width:37.5rem;
+    max-width:37.5rem;
     height:auto;
     border-radius: 3rem;
+    /* border-color: var(--dark-blue); */
 }
 
 .title p{
@@ -61,7 +64,7 @@ main{
     width:5rem;
     height: 5rem;
     border-radius: 50%;
-    background-color: var(--very-dark-blue);
+    background-color: var(--dark-blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,11 +115,11 @@ background-color: var(--orange);
 color: var(--white);
 } */
 
-label{
+.btn{
     border-radius: 50%;
     width: 5rem;
-    height: 5rem;
-    background-color: var(--very-dark-blue);
+    height:5rem;
+    background-color: var(--dark-blue);
     color: var(--medium-grey);
     display: flex;
     justify-content: center ;
@@ -125,7 +128,7 @@ label{
     position: relative;
 }
 
-label:hover{
+.btn:hover{
     background-color: var(--orange);
     color: var(--white);
 }
